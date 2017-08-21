@@ -17,6 +17,7 @@ Plugin 'terryma/vim-multiple-cursors'
 Plugin 'kien/ctrlp.vim'
 Plugin 'itchyny/lightline.vim'
 Plugin 'wikitopian/hardmode'
+" Plugin 'mhinz/vim-hugefile'
 Plugin 'Chiel92/vim-autoformat'
 
 call vundle#end()            " required
@@ -60,3 +61,4 @@ autocmd VimEnter * wincmd p
 set tabstop=2
 
 set autochdir
+
