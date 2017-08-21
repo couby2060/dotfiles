@@ -61,4 +61,22 @@ autocmd VimEnter * wincmd p
 set tabstop=2
 
 set autochdir
+" With a map leader it's possible to do extra key combinations
+" like <leader>w saves the current file
+let mapleader = ","
+let g:mapleader = ","
 
+" Fast saving
+nmap <leader>w :w!<cr>
+
+" Ignore case when searching
+set ignorecase
+
+" When searching try to be smart about cases 
+set smartcase
+
+" Highlight search results
+set hlsearch
+
+" Makes search act like search in modern browsers
+set incsearch 
