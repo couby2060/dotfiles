@@ -1,0 +1,5 @@
+if [ -f ~/.dotfiles/zsh/.zshrc ]; then
+    source ~/.dotfiles/zsh/.zshrc
+else
+    print "404: ~/.dotfiles/zsh not found."
+fi

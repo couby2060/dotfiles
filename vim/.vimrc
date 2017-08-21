@@ -58,3 +58,5 @@ autocmd VimEnter * NERDTree
 autocmd VimEnter * wincmd p
 
 set tabstop=2
+
+set autochdir

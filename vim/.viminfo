@@ -1,0 +1,629 @@
+# Diese viminfo-Datei wurde von Vim 7.4 generiert.
+# Sie können sie verändern, wenn Sie vorsichtig vorgehen!
+
+# Wert von 'encoding', als diese Datei geschrieben wurde
+*encoding=utf-8
+
+
+# hlsearch on (H) or off (h):
+~h
+# Letztes Suchmuster:
+~MSle0~/5
+
+# Letzte ersetzte Zeichenkette:
+$
+
+# Befehlszeile Geschichte (neueste bis älteste):
+:w
+:q
+:NERDTreeFind
+:pwd
+:q!
+:Autoformat tidy
+:Autoformat
+:!ls
+:cd
+:CD:
+:CD
+:cwd
+:wq
+:set nolist
+:listno
+:list
+:nolist
+:saveas ~/Schreibtisch/html2-test.html
+:new
+:e
+
+# Suchausdruck Geschichte (neueste bis älteste):
+? \s\+$
+??5
+?/\.
+?/.
+?/1.
+??num
+?/html
+?/Plug
+??=4
+??NER
+?/sort u
+?/)/g
+?/)
+?/NERD
+?/.)
+?/test
+?/vim-
+?/Schre
+?/schre
+?/vim
+
+# Ausdruck Geschichte (neueste bis älteste):
+
+# Eingabe-Zeile Geschichte (neueste bis älteste):
+
+# Eingabe-Zeile Geschichte (neueste bis älteste):
+
+# Register:
+""0	LINE	0
+	1.) Configurate NERDTree - show on Current directory 
+	2.) Shell autocomplete vim commands and directories
+	5.) Default switch esx and shift - google default keybinding changes for using vim
+	6.) Switch Command mode from : to , or . ?
+	7.) Configuration for opening and editing big files. No syntax highlighting and so on.
+	8.) Move Addon konfigurieren, dass bei f -> letter die buchstaben hervorgehoben werden
+	9.) Case sensitive search ?
+	10.) Dot Files auslagern / Git Cleanup
+	11.) Find addon to prettyfy html code
+	12.) Set Tabstop = 2
+	13.) Theme
+	16.) Select lines - Select all Lines Containing
+	17.) Addon for showing Tabs - Select all Lines Containing
+	18.) Show hidden files in NERDTree
+	
+	
+	
+	gt = Cycle through Tabs
+	CTRL HJKL - navigate between splits
+	%sort  // sort! for revers // sort u for remove duplicate lines // sort n for numeric
+	:Autoformat oder :Autoformat tidy für html mit Tidy autoformater.
+	
+	
+	
+	______
+	
+	
+	Shortcuts:
+	gg=G Prettyfy? - funktioniert nicht
+	
+"1	LINE	0
+	2.) Save new split, paste, copy, select all, switch between files, windows, tabs (Shortcuts like Chrome for switchting Tabs
+"2	LINE	0
+	4.) vim copy paste buffer
+"3	LINE	0
+	5
+"4	LINE	0
+	
+"5	LINE	0
+	
+"6	LINE	0
+	
+"7	LINE	0
+	set list
+"8	LINE	0
+	
+"9	LINE	0
+	15.) Delete duplicate lines
+"s	CHAR	0
+	df:s
+"-	CHAR	0
+	,
+
+# Datei-Marken:
+'M  2  0  ~/Schreibtisch/Lorem-vim
+'0  1  0  ~/Schreibtisch/vim-to-dos.txt
+'1  29  0  ~/NERD_tree_2
+'2  1  0  ~/NERD_tree_1
+'3  34  0  ~/NERD_tree_1
+'4  332  0  ~/NERD_tree_2
+'5  454  0  ~/NERD_tree_2
+'6  60  0  ~/.vimrc
+'7  275  0  ~/Schreibtisch/html2-test.html
+'8  1  125  ~/Schreibtisch/test.html
+'9  52  0  ~/.vimrc
+
+# Geschichte (neueste zuerst):
+-'  1  0  ~/Schreibtisch/vim-to-dos.txt
+-'  30  0  ~/Schreibtisch/vim-to-dos.txt
+-'  2  0  ~/Schreibtisch/vim-to-dos.txt
+-'  3  0  ~/Schreibtisch/vim-to-dos.txt
+-'  29  0  ~/NERD_tree_2
+-'  6  2  ~/NERD_tree_2
+-'  59  2  ~/NERD_tree_2
+-'  1  0  ~/NERD_tree_2
+-'  1  24  ~/Schreibtisch/wp_homepage/license.txt
+-'  1  0  ~/Schreibtisch/html2-test.html
+-'  1  0  ~/Schreibtisch/Lorem-vim
+-'  7  0  ~/NERD_tree_1
+-'  1  0  ~/NERD_tree_1
+-'  11  2  ~/NERD_tree_1
+-'  21  2  ~/NERD_tree_1
+-'  31  2  ~/NERD_tree_1
+-'  34  0  ~/NERD_tree_1
+-'  106  2  ~/NERD_tree_1
+-'  1  0  ~/.vimrc
+-'  332  0  ~/NERD_tree_2
+-'  403  2  ~/NERD_tree_2
+-'  116  2  ~/NERD_tree_1
+-'  454  0  ~/NERD_tree_2
+-'  477  2  ~/NERD_tree_2
+-'  126  2  ~/NERD_tree_1
+-'  60  0  ~/.vimrc
+-'  63  0  ~/.vimrc
+-'  275  0  ~/Schreibtisch/html2-test.html
+-'  63  0  ~/Schreibtisch/html2-test.html
+-'  1  581  ~/Schreibtisch/test.html
+-'  52  0  ~/.vimrc
+-'  536  4  ~/NERD_tree_1
+-'  532  10  ~/NERD_tree_1
+-'  530  4  ~/NERD_tree_1
+-'  541  2  ~/NERD_tree_1
+-'  12  46  ~/Schreibtisch/vim-to-dos.txt
+-'  20  0  ~/Schreibtisch/vim-to-dos.txt
+-'  13  5  ~/Schreibtisch/vim-to-dos.txt
+-'  6  0  ~/Schreibtisch/vim-to-dos.txt
+-'  4  0  ~/Schreibtisch/vim-to-dos.txt
+-'  29  34  ~/Schreibtisch/vim-to-dos.txt
+-'  28  4  ~/Schreibtisch/vim-to-dos.txt
+-'  23  0  ~/Schreibtisch/vim-to-dos.txt
+-'  1  0  ~/NERD_tree_3
+-'  19  4  ~/NERD_tree_3
+-'  15  4  ~/NERD_tree_3
+-'  24  2  ~/NERD_tree_3
+-'  547  2  ~/NERD_tree_1
+-'  565  1  ~/NERD_tree_1
+-'  564  4  ~/NERD_tree_1
+-'  563  4  ~/NERD_tree_1
+-'  562  2  ~/NERD_tree_1
+-'  570  2  ~/NERD_tree_1
+-'  575  2  ~/NERD_tree_1
+-'  594  2  ~/NERD_tree_1
+-'  3  0  ~/Schreibtisch/Lorem-vim
+-'  1  0  ~/PycharmProjects/Python-Tests/daoc-rp.py
+-'  10  5  ~/PycharmProjects/Python-Tests/.gitignore
+-'  9  0  ~/PycharmProjects/Python-Tests/.gitignore
+-'  1  0  ~/PycharmProjects/Python-Tests/.gitignore
+-'  601  2  ~/NERD_tree_1
+-'  217  0  ~/Schreibtisch/Lorem-vim
+-'  215  0  ~/Schreibtisch/Lorem-vim
+-'  218  0  ~/Schreibtisch/Lorem-vim
+-'  19  0  ~/Schreibtisch/Lorem-vim
+-'  2  0  ~/Schreibtisch/Lorem-vim
+-'  42  22  ~/Schreibtisch/Lorem-vim
+-'  29  0  ~/NERD_tree_2
+-'  6  2  ~/NERD_tree_2
+-'  59  2  ~/NERD_tree_2
+-'  1  0  ~/NERD_tree_2
+-'  1  24  ~/Schreibtisch/wp_homepage/license.txt
+-'  1  0  ~/Schreibtisch/html2-test.html
+-'  1  0  ~/Schreibtisch/Lorem-vim
+-'  7  0  ~/NERD_tree_1
+-'  1  0  ~/NERD_tree_1
+-'  11  2  ~/NERD_tree_1
+-'  21  2  ~/NERD_tree_1
+-'  31  2  ~/NERD_tree_1
+-'  34  0  ~/NERD_tree_1
+-'  106  2  ~/NERD_tree_1
+-'  1  0  ~/.vimrc
+-'  332  0  ~/NERD_tree_2
+-'  403  2  ~/NERD_tree_2
+-'  116  2  ~/NERD_tree_1
+-'  454  0  ~/NERD_tree_2
+-'  477  2  ~/NERD_tree_2
+
+# Geschichte der Markierungen innerhalb von Dateien (neueste zuerst):
+
+> ~/Schreibtisch/vim-to-dos.txt
+	"	1	0
+	^	3	1
+	.	2	0
+	+	2	0
+	+	1	3
+	+	2	123
+	+	2	51
+	+	6	86
+	+	23	0
+	+	3	2
+	+	30	0
+	+	29	34
+	+	12	47
+	+	20	27
+	+	13	0
+	+	20	0
+	+	14	34
+	+	19	34
+	+	14	34
+	+	22	0
+	+	12	0
+	+	21	65
+	+	3	1
+	+	1	52
+	+	3	0
+	+	2	0
+
+> ~/Schreibtisch/NERD_tree_1
+	"	4	0
+	.	1	0
+	+	1	0
+
+> ~/NERD_tree_1
+	"	7	0
+	.	1	0
+	+	1	0
+	+	1	0
+	+	1	0
+	+	1	0
+	+	1	0
+	+	1	0
+	+	1	0
+	+	1	0
+	+	1	0
+	+	1	0
+	+	1	0
+	+	1	0
+	+	1	0
+	+	1	0
+	+	1	0
+	+	1	0
+	+	1	0
+	+	1	0
+	+	1	0
+	+	1	0
+	+	1	0
+	+	1	0
+	+	1	0
+	+	1	0
+	+	1	0
+	+	1	0
+	+	1	0
+	+	1	0
+
+> ~/NERD_tree_2
+	"	29	0
+	.	1	0
+	+	1	0
+	+	1	0
+	+	1	0
+	+	1	0
+	+	1	0
+	+	1	0
+	+	1	0
+	+	1	0
+	+	1	0
+	+	1	0
+	+	1	0
+	+	1	0
+	+	1	0
+	+	1	0
+	+	1	0
+	+	1	0
+	+	1	0
+	+	1	0
+	+	1	0
+	+	1	0
+	+	1	0
+	+	1	0
+	+	1	0
+	+	1	0
+	+	1	0
+	+	1	0
+	+	1	0
+	+	1	0
+	+	1	0
+	+	1	0
+	+	1	0
+	+	1	0
+	+	1	0
+	+	1	0
+	+	1	0
+	+	1	0
+	+	1	0
+	+	1	0
+	+	1	0
+	+	1	0
+	+	1	0
+	+	1	0
+	+	1	0
+	+	1	0
+	+	1	0
+	+	1	0
+	+	1	0
+	+	1	0
+	+	1	0
+	+	1	0
+	+	1	0
+	+	1	0
+	+	1	0
+	+	1	0
+	+	1	0
+	+	1	0
+	+	1	0
+	+	1	0
+	+	1	0
+	+	1	0
+	+	1	0
+	+	1	0
+	+	1	0
+	+	1	0
+	+	1	0
+	+	1	0
+	+	1	0
+	+	1	0
+
+> ~/Schreibtisch/test.html
+	"	539	0
+	.	3	0
+	+	1	0
+	+	3	0
+
+> ~/Schreibtisch/Lorem-vim
+	"	1	0
+	^	1	12
+	.	1	0
+	+	2	1
+	+	2	0
+	+	2	0
+	+	2	0
+	+	2	0
+	+	2	415
+	+	2	0
+	+	2	0
+	+	2	0
+	+	2	0
+	+	2	400
+	+	2	0
+	+	198	400
+	+	2	1
+	+	2	0
+	+	5	0
+	+	12	0
+	+	11	0
+	+	43	0
+	+	43	0
+	+	43	0
+	+	43	0
+	+	52	0
+	+	42	0
+	+	2	0
+	+	3	0
+	+	3	0
+	+	3	0
+	+	1	0
+	+	19	0
+	+	199	0
+	+	201	0
+	+	215	1
+	+	215	8
+	+	218	0
+	+	218	42
+	+	218	0
+	+	218	0
+	+	218	0
+	+	218	0
+	+	216	0
+	+	1	0
+	m	11	0
+	n	11	0
+
+> ~/Schreibtisch/html2-test.html
+	"	1	0
+
+> ~/Schreibtisch/wp_homepage/license.txt
+	"	1	24
+
+> ~/Schreibtisch/wp_homepage/.htaccess
+	"	1	0
+
+> ~/Schreibtisch/wp_homepage/.htpasswd
+	"	1	0
+
+> ~/.vimrc
+	"	62	12
+	^	62	13
+	.	62	12
+	+	105	42
+	+	263	60
+	+	105	1
+	+	105	0
+	+	105	0
+	+	105	0
+	+	105	0
+	+	105	0
+	+	105	0
+	+	105	0
+	+	105	0
+	+	105	0
+	+	105	0
+	+	105	0
+	+	105	52
+	+	105	0
+	+	103	0
+	+	100	10
+	+	98	0
+	+	98	61
+	+	60	0
+	+	63	0
+	+	63	0
+	+	63	0
+	+	63	0
+	+	64	0
+	+	65	0
+	+	66	0
+	+	66	0
+	+	67	0
+	+	68	0
+	+	69	0
+	+	70	0
+	+	71	0
+	+	72	0
+	+	73	0
+	+	75	0
+	+	76	0
+	+	78	0
+	+	79	0
+	+	77	0
+	+	79	0
+	+	80	0
+	+	81	0
+	+	79	1
+	+	81	1
+	+	89	0
+	+	89	0
+	+	89	0
+	+	89	0
+	+	83	74
+	+	90	0
+	+	91	0
+	+	92	0
+	+	93	0
+	+	94	0
+	+	95	0
+	+	96	0
+	+	97	0
+	+	98	0
+	+	98	3
+	+	98	0
+	+	98	0
+	+	98	0
+	+	98	1
+	+	98	1
+	+	98	1
+	+	66	0
+	+	63	0
+	+	74	0
+	+	77	0
+	+	84	0
+	+	83	0
+	+	82	0
+	+	81	0
+	+	89	0
+	+	63	1
+	+	60	1
+	+	58	0
+	+	98	51
+	+	66	0
+	+	98	0
+	+	85	0
+	+	89	0
+	+	89	0
+	+	86	0
+	+	58	0
+	+	12	0
+	+	1	2
+	+	43	25
+	+	45	0
+	+	58	0
+	+	49	0
+	+	50	28
+	+	51	0
+	+	52	0
+	+	63	0
+	+	62	12
+
+> ~/.bash_history
+	"	1	0
+
+> ~/.bashrc
+	"	1	0
+
+> ~/new
+	"	1	0
+	.	2	0
+	+	2	0
+
+> ~/Schreibtisch/Mac-Backup-MP4s.txt
+	"	1	0
+
+> ~/NERD_tree_3
+	"	1	0
+	.	1	0
+	+	1	0
+	+	1	0
+
+> ~/Schreibtisch/mount-macbook-backup
+	"	1	0
+
+> ~/PycharmProjects/Python-Tests/daoc-rp.py
+	"	1	0
+
+> ~/PycharmProjects/Python-Tests/.gitignore
+	"	10	5
+	^	10	6
+	.	10	6
+	+	9	26
+	+	10	6
+
+> /tmp/tutorEu55YM
+	"	515	0
+	^	458	71
+	.	458	70
+	+	85	31
+	+	110	37
+	+	133	37
+	+	135	43
+	+	205	0
+	+	204	35
+	+	222	54
+	+	264	0
+	+	296	35
+	+	320	0
+	+	317	0
+	+	342	0
+	+	204	0
+	+	392	0
+	+	388	0
+	+	392	0
+	+	389	0
+	+	392	0
+	+	390	0
+	+	389	0
+	+	391	0
+	+	406	19
+	+	431	73
+	+	458	70
+
+> ~/.zshrc
+	"	94	0
+	.	92	0
+	+	16	44
+	+	16	0
+	+	10	0
+	+	106	0
+	+	97	0
+	+	102	0
+	+	105	0
+	+	15	0
+	+	10	11
+	+	95	0
+	+	87	0
+	+	92	0
+
+> ~/.gitignore
+	"	6	0
+	^	6	1
+	.	6	1
+	+	13	0
+	+	12	10
+	+	6	0
+	+	4	9
+	+	5	5
+	+	6	5
+	+	3	0
+	+	4	0
+	+	5	0
+	+	6	1
+
+> ~/.gitign
+	"	1	0
+
+> /etc/passwd
+	"	34	34
