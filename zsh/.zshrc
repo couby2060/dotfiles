@@ -92,3 +92,8 @@ alias gcommit='git commit -m'
 alias c='clear'
 alias ..='cd ..'
 alias cd..='cd ..'
+
+mkcd () {
+  mkdir "$1"
+  cd "$1"
+}

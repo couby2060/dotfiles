@@ -15,13 +15,14 @@ Plugin 'tpope/vim-surround'
 Plugin 'easymotion/vim-easymotion'
 Plugin 'terryma/vim-multiple-cursors'
 Plugin 'kien/ctrlp.vim'
-Plugin 'wikitopian/hardmode'
+" Plugin 'wikitopian/hardmode'
 Plugin 'Chiel92/vim-autoformat'
-Plugin 'Lokaltog/vim-powerline'
 " Plugin 'mhinz/vim-hugefile'
-" Plugin 'itchyny/lightline.vim'
+Plugin 'itchyny/lightline.vim'
 Plugin 'LargeFile'
 Plugin 'altercation/vim-colors-solarized'
+Plugin 'vim-airline/vim-airline'
+Plugin 'vim-airline/vim-airline-themes'
 
 call vundle#end()            " required
 filetype plugin indent on    " required
@@ -46,8 +47,8 @@ set cursorline
 hi CursorLine term=bold cterm=bold guibg=Grey40
 set number
 set relativenumber
-autocmd VimEnter,BufNewFile,BufReadPost * silent! call HardMode()
-nnoremap <leader>h <Esc>:call ToggleHardMode()<CR>
+" autocmd VimEnter,BufNewFile,BufReadPost * silent! call HardMode()
+" nnoremap <leader>h <Esc>:call ToggleHardMode()<CR>
 set clipboard=unnamedplus
 
 nnoremap <C-J> <C-W><C-J>
@@ -138,3 +139,5 @@ set lazyredraw
         " Fix background color for vim-gitgutter
         highlight SignColumn ctermbg=NONE
 endif
+
+let g:airline_theme='base16_grayscale'
