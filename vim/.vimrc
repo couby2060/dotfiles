@@ -20,6 +20,8 @@ Plugin 'Chiel92/vim-autoformat'
 Plugin 'Lokaltog/vim-powerline'
 " Plugin 'mhinz/vim-hugefile'
 " Plugin 'itchyny/lightline.vim'
+Plugin 'LargeFile'
+Plugin 'altercation/vim-colors-solarized'
 
 call vundle#end()            " required
 filetype plugin indent on    " required
@@ -123,3 +125,16 @@ vmap k gk
 set wildmenu
 set lazyredraw
 
+ " Load solarized as the default color scheme
+    if filereadable(expand("$HOME/.dotfiles/vim/.vim/bundle/vim-colors-solarized/colors/solarized.vim"))
+        set t_Co=256 " enable 256 colors
+        set background=dark
+        let g:solarized_termcolors=16
+        if !has('gui_running')
+            let g:solarized_termtrans=1
+        endif
+        colorscheme solarized
+
+        " Fix background color for vim-gitgutter
+        highlight SignColumn ctermbg=NONE
+endif
