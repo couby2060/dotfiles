@@ -18,11 +18,12 @@ Plugin 'kien/ctrlp.vim'
 " Plugin 'wikitopian/hardmode'
 Plugin 'Chiel92/vim-autoformat'
 " Plugin 'mhinz/vim-hugefile'
-Plugin 'itchyny/lightline.vim'
+" Plugin 'itchyny/lightline.vim'
 Plugin 'LargeFile'
 Plugin 'altercation/vim-colors-solarized'
 Plugin 'vim-airline/vim-airline'
 Plugin 'vim-airline/vim-airline-themes'
+Plugin 'tpope/vim-fugitive'
 
 call vundle#end()            " required
 filetype plugin indent on    " required
@@ -60,7 +61,7 @@ map <F2> :NERDTreeToggle<CR>
 map <F3> :NERDTreeFind<CR>
 
 "Show hidden files in NerdTree
-let NERDTreeShowHidden=1
+let NERDTreeShowHidden=0
 
 "autopen NERDTree and focus cursor in new document
 autocmd VimEnter * NERDTree
@@ -88,13 +89,13 @@ set hlsearch
 
 " Makes search act like search in modern browsers
 set incsearch 
+"""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
 
 " For regular expressions turn magic on
 set magic
 
 """""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
 " => Files, backups and undo
-"""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
 " Turn backup off, since most stuff is in SVN, git et.c anyway...
 set nobackup
 set nowb
@@ -140,4 +141,12 @@ set lazyredraw
         highlight SignColumn ctermbg=NONE
 endif
 
-let g:airline_theme='base16_grayscale'
+let g:airline_theme='molokai'
+set laststatus=2
+let g:airline_powerline_fonts = 1
+
+
+if !exists('g:airline_symbols')
+  let g:airline_symbols = {}
+endif
+let g:airline_symbols.space = "\ua0"
