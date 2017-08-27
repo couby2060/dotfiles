@@ -23,6 +23,9 @@ Plugin 'LargeFile'
 Plugin 'altercation/vim-colors-solarized'
 Plugin 'vim-airline/vim-airline'
 Plugin 'vim-airline/vim-airline-themes'
+Plugin 'Valloric/YouCompleteMe'
+Plugin 'scroolse/syntastic'
+Plugin 'nvie/vim-flake8'
 Plugin 'tpope/vim-fugitive'
 
 call vundle#end()            " required
@@ -150,3 +153,7 @@ if !exists('g:airline_symbols')
   let g:airline_symbols = {}
 endif
 let g:airline_symbols.space = "\ua0"
+
+" Python make Code look Pretty:
+let python_highlight_all=1
+
