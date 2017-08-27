@@ -94,8 +94,16 @@ alias gcommit='git commit -m'
 alias c='clear'
 alias ..='cd ..'
 alias cd..='cd ..'
+alias brewup="brew update && brew doctor && brew outdated && brew upgrade && brew cleanup"
+alias brewup2="brew update && brew upgrade && brew cleanup && brew cask cleanup; brew doctor"
 
 mkcd () {
   mkdir "$1"
   cd "$1"
 }
+
+
+### There from beginning
+export PATH="/usr/local/bin:$PATH"
+### Added by Homebrew
+export PATH="/usr/local/sbin:$PATH"
