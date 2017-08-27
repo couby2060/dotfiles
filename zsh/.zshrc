@@ -86,7 +86,7 @@ source $ZSH/oh-my-zsh.sh
 # alias ohmyzsh="mate ~/.oh-my-zsh"
 # 
 #
-alias ls='ls -l'
+alias ls='ls -l -G'
 alias pullpush='git pull; git push'
 alias gstatus='git status'
 alias gadd='git add -A'
