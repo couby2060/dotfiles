@@ -157,3 +157,12 @@ let g:airline_symbols.space = "\ua0"
 " Python make Code look Pretty:
 let python_highlight_all=1
 
+" Recommendede Settings for syntastic - see: https://github.com/vim-syntastic/syntastic
+set statusline+=%#warningmsg#
+set statusline+=%{SyntasticStatuslineFlag()}
+set statusline+=%*
+
+let g:syntastic_always_populate_loc_list = 1
+let g:syntastic_auto_loc_list = 1
+let g:syntastic_check_on_open = 1
+let g:syntastic_check_on_wq = 0
