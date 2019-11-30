@@ -95,7 +95,7 @@ alias c='clear'
 alias ..='cd ..'
 alias cd..='cd ..'
 alias brewup="brew update && brew doctor && brew outdated && brew upgrade && brew cleanup"
-alias brewup2="upgrade_oh_my_zsh;brew update && brew upgrade && brew cleanup; brew doctor"
+alias brewup2="upgrade_oh_my_zsh;brew update && brew upgrade && brew cleanup; brew doctor;"
 
 mkcd () {
   mkdir "$1"
